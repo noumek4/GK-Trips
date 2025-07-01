@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-function Home() {
+function home() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
@@ -28,4 +28,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default home;
