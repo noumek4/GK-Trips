@@ -1,10 +1,11 @@
 
 import './App.css';
 import Navbar from './Navbar';
+import Auth from './Auth';
 
 function App() {
   return (
-    < Navbar />
+    <><Navbar /><Auth /></>
     
   );
 }
