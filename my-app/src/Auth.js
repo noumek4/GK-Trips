@@ -33,7 +33,7 @@ return (
     <div className='auth-container' style={{ backgroundImage: `url(${backgrounds[bgIndex]})` }} onClick={cycleBackground}>
         <div className='overlay'>
             <div className='form-box'>
-                <h2>Sign up</h2>
+                <h2>GK Trips Sign In</h2>
                 <div className='progressbar' style={{width: `60%`, backgroundColor:'white'}}></div>
                 <input
                     type='text'
