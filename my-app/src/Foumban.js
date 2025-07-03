@@ -15,12 +15,31 @@ function Foumban() {
                     </p>
                 </div>
             </div>
-           
+
+            <div className='trip-details'>
+                <div className='column'>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            </div>
+
+              <div className='column'>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            </div>
+        </div>
+
+        <div className='btn-wrapper'>
+            <button className='book-btn'>Book Now</button>
+        </div>
         </div>
 
         
         
-    )
-}
+    );
+};
 
 export default Foumban;
