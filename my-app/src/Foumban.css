@@ -1,0 +1,12 @@
+.header{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.container-foumban{
+    display: flex;
+    flex-direction: column;
+   or: ;
+
+}
