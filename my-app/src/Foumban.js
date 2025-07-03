@@ -1,4 +1,5 @@
 import React from 'react';
+import './Foumban.css';
 
 function Foumban() {
     return (
