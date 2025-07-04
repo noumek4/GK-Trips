@@ -1,5 +1,4 @@
 import React from 'react'
-import {FaSearch} from 'react-icons/fa'
 import './Home.css'; 
 
 const cardData = [
@@ -18,17 +17,6 @@ const cardData = [
 function Home() {
     return (
         <>
-        <nav className='navbar'>
-            <FaSearch className='search-icon' 
-            size={20} color='white'/>
-            <input type='text' placeholder='Search for trips, Hotels' className='search-input' />
-            <div className='nav-links'>
-                <ul>
-                    <li><a href='./Auth.js'>Create an Account</a></li>
-                    <li><a href='./Signin.js'>Sign In</a></li>
-                </ul>
-            </div>
-        </nav>
 
         <div className='card-container'>
             {cardData.map((card, index) => (
