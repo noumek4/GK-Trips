@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'; 
+import './bg1.jpg'
 
 const cardData = [
     { title: 'The Waza Park', Image: './bg1.jpg'},
