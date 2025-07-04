@@ -1,4 +1,6 @@
 import React from "react";
+import './Navbar.css';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return(
@@ -9,8 +11,8 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-right">
-                <a href="/GK-Trips/my-app/src/Auth.js" className="nav-link">Create an Account</a>
-                <a href="/GK-Trips/my-app/src/Signin.js" className="nav-link">Sign In</a>
+                <Link to="/auth" className="nav-link">Create an Account</Link>
+                <Link to="/signin" className="nav-link">Sign In</Link>
                 <div className="menu-icon">
                     <i className="fas fa-bars"></i>
                 </div>
