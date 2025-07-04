@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 import './Auth.css'
-import bg1 from './assets/bg1.jpg';
-import bg2 from './assets/bg2.jpg';
-import bg3 from './assets/bg3.jpg';
-import bg4 from './assets/bg4.jpg';
+import bg1 from './bg1.jpg';
+import bg2 from './bg2.jpg';
+import bg3 from './bg3.jpg';
+import bg4 from './bg4.jpg';
 
 const backgrounds = [bg1, bg2, bg3, bg4];
 
