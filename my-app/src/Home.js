@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Home.css'; 
 import './bg1.jpg'
 
@@ -24,9 +25,9 @@ function Home() {
                 <div className={`card ${card.type}`} key={index}>
                     <img src={card.Image} alt={card.title} />
                     <h3>{card.title}</h3>
-                    <link to={card.link}>
+                    <Link to={card.link}>
                     <button className='view-btn'>View</button>
-                    </link>
+                    </Link>
                     
                 </div>
             ))}
