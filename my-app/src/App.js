@@ -13,7 +13,8 @@ import Jully from './Jully';
 import Febe from './Febe';
 import Rabingha from './Rabingha';
 import Adrien from './Adrien';
-import Amar from './Amar'
+import Amar from './Amar';
+import Reservation from './Reservation';
 import './Auth.css'
 
 
@@ -36,6 +37,7 @@ function App() {
         <Route path='/rabingha' element={<Rabingha />} />
         <Route path='/adrien' element={<Adrien />} />
         <Route path='/amar' element={<Amar />} />
+        <Route path='/reservation' element={<Reservation />} />
         <Route path='*' element={<h1>Page Not Found</h1>} />
       </Routes>
     </Router>
