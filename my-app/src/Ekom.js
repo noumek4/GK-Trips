@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './bg5.jpg';
 import './Ekom.css';
 
 function Ekom() {
@@ -7,10 +9,10 @@ function Ekom() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="/assets/bg3.jpg" alt="Foumban Museum" className="trip-img" />
+                <img src="./bg5.jpg" alt="The Ekom Nkam Waterfalls" className="trip-img" />
                 <div className='trip-description'>
-                    <h2>The Foumban Museum</h2>
-                    <p>Known for it's incredible design the waza park is known for
+                    <h2>The Ekom Nkam Waterfalls</h2>
+                    <p>Known for it's incredible design the Ekom Nkam Waterfalls is known for
                         it's incredible design and the variety of animals it houses and 
                         it's traditional artefact
                     </p>
@@ -34,7 +36,9 @@ function Ekom() {
         </div>
 
         <div className='btn-wrapper'>
+        <Link to="/reservation">
             <button className='book-btn'>Book Now</button>
+        </Link>
         </div>
         </div>
 

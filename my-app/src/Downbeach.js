@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './bg4.jpg';
 import './Downbeach.css';
 
 function DownBeach() {
@@ -8,7 +9,7 @@ function DownBeach() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="/assets/bg3.jpg" alt="Down Beach" className="trip-img" />
+                <img src="./bg4.jpg" alt="Down Beach" className="trip-img" />
                 <div className='trip-description'>
                     <h2>Down Beach</h2>
                     <p>Known for it's incredible design the Down Beach is known for

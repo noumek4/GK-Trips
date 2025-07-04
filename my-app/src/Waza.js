@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './bg6.jpg'
 import './Waza.css';
 
 function Waza() {
@@ -7,9 +9,9 @@ function Waza() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="/assets/bg3.jpg" alt="Foumban Museum" className="trip-img" />
+                <img src="./bg6.jpg" alt="The Waza Park" className="trip-img" />
                 <div className='trip-description'>
-                    <h2>The Foumban Museum</h2>
+                    <h2>The Waza Park</h2>
                     <p>Known for it's incredible design the waza park is known for
                         it's incredible design and the variety of animals it houses and 
                         it's traditional artefact
@@ -34,7 +36,9 @@ function Waza() {
         </div>
 
         <div className='btn-wrapper'>
+        <Link to="/reservation">
             <button className='book-btn'>Book Now</button>
+        </Link>
         </div>
         </div>
 

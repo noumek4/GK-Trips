@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './bg1.jpg'
 import './Adrien.css';
 
 function Adrien() {
@@ -7,10 +9,10 @@ function Adrien() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="/assets/bg3.jpg" alt="Foumban Museum" className="trip-img" />
+                <img src="./bg1.jpg" alt="The Adrien Beach Hotel" className="trip-img" />
                 <div className='trip-description'>
-                    <h2>The Foumban Museum</h2>
-                    <p>Known for it's incredible design the waza park is known for
+                    <h2>The Adrien Beach Hotel</h2>
+                    <p>Known for it's incredible design The Adrien Beach Hotel is known for
                         it's incredible design and the variety of animals it houses and 
                         it's traditional artefact
                     </p>
@@ -34,7 +36,9 @@ function Adrien() {
         </div>
 
         <div className='btn-wrapper'>
+        <Link to="/reservation">
             <button className='book-btn'>Book Now</button>
+        </Link>
         </div>
         </div>
 
