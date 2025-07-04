@@ -1,0 +1,67 @@
+.header{
+ font-family: sans-serif;
+ background: white;
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 1rem;
+}
+
+.trip-header{
+    background-color: #1d4ed8;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+}
+.trip-info-box{
+    background: #e0e7ff;
+    display: flex;
+    padding: 1rem;
+    border-radius: 0 0 20px 20px;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.trip-img{
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.trip-description{
+    flex:1;
+}
+.trip-description h2{
+    color: #0f172a;
+    margin: 0 0 0.5rem;
+}
+.trip-description p{
+    color: #334155;
+    margin: 0;
+}
+.trip-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;;
+}
+.column p{
+    margin: 0.5rem 0;
+}
+.btn-wrapper{
+    text-align: center;
+    margin-top: 1rem;
+}
+.book-btn{
+    padding: 0.6rem 1.5rem;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.book-btn:hover{
+    background-color: #2563eb;
+}

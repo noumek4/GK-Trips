@@ -1,7 +1,7 @@
 import React from 'react';
-import './Jully.css';
+import './Ekom.css';
 
-function Jully() {
+function Ekom() {
     return (
         <div className='header'>
             <div className='trip-header'>Trip Info</div>
@@ -43,4 +43,4 @@ function Jully() {
     );
 };
 
-export default Jully;
+export default Ekom;

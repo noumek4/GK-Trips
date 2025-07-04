@@ -1,7 +1,7 @@
 import React from 'react';
-import './Jully.css';
+import './Adrien.css';
 
-function Jully() {
+function Adrien() {
     return (
         <div className='header'>
             <div className='trip-header'>Trip Info</div>
@@ -43,4 +43,4 @@ function Jully() {
     );
 };
 
-export default Jully;
+export default Adrien;
