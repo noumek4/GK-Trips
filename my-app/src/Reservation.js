@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Auth.css'
+import './Auth.css';
+import { Link } from 'react-router-dom';
 import bg1 from './bg1.jpg';
 import bg2 from './bg2.jpg';
 import bg3 from './bg3.jpg';
@@ -137,7 +138,8 @@ function ReservationForm() {
                                     background: '#fff',
                                     display: 'flex',
                                     alignItems: 'center',
-                                    justifyContent: 'space-between'
+                                    justifyContent: 'space-between',
+                                    color: 'black'
                                 }}
                                 onClick={e => {
                                     e.stopPropagation();
@@ -204,7 +206,9 @@ function ReservationForm() {
                             onChange={handleInputChange}
                         />
                         <div className='button-group'>
+                            <Link to="/home">
                             <button type="submit">Reserve</button>
+                            </Link>
                         </div>
                         {error && <div style={{ color: 'red', marginTop: 10 }}>{error}</div>}
                         {success && <div style={{ color: 'green', marginTop: 10 }}>{success}</div>}

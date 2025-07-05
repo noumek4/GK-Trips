@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import './Auth.css'
 import bg1 from './bg1.jpg';
@@ -64,7 +65,9 @@ return (
                     onChange={handleInputChange}
                 />
                 <div className='button-group'>
+                    <Link to="/home">
                     <button onClick={() => alert('Submitted!')}>Submit</button>
+                    </Link>
                 </div>
             </div>
         </div>

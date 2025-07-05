@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 import './Auth.css'
 import bg1 from './bg1.jpg';
 import bg2 from './bg2.jpg';
@@ -49,7 +50,9 @@ return (
                 />
 
                 <div className='button-group'>
+                    <Link to="/home">
                     <button onClick={() => alert('Submitted!')}>Sign In</button>
+                    </Link>
                 </div>
             </div>
         </div>
