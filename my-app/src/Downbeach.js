@@ -15,6 +15,12 @@ function DownBeach() {
                     <p>Known for it's incredible design the Down Beach is known for
                         it's incredible design and the variety of animals it houses and 
                         it's traditional artefact
+                         Known for it's incredible design the waza park is known for
+                        it's incredible design and the variety of animals it houses and 
+                        it's traditional artefact 
+                         Known for it's incredible design the waza park is known for
+                        it's incredible design and the variety of animals it houses and 
+                        it's traditional artefact 
                     </p>
                 </div>
             </div>
