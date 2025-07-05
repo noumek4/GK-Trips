@@ -20,9 +20,9 @@ import './Auth.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/GK-Trips">
+      {/* ... */}
       <Navbar />
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
