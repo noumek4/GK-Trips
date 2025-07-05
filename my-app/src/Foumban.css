@@ -25,7 +25,7 @@
     margin-bottom: 1rem;
 }
 .trip-img{
-    width: 300px;
+    width: 25%;
     height: auto;
     border-radius: 15px;
     object-fit: cover;
