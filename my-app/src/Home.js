@@ -18,11 +18,11 @@ const cardData = [
     { title: 'limbe Botanical Garden', Image: bg3, type:"trip", link: '/limbe'},
     { title: 'The Ekom Nkam Waterfalls', Image: bg4, type:"trip", link: '/ekom'},
     { title: 'Down Beach', Image: bg5, type:"trip", link: '/downbeach'},
-    { title: 'Jully Kribi Residence', Image: bg6, type:"hotel", link: '/jully'},
-    { title: 'The Mount Febe Hotel', Image: bg7, type:"hotel", link: '/febe'},
-    { title: 'The Douala Rabingha Hotel', Image: bg8, type:"hotel", link: '/rabingha'},
-    { title: 'The Adrien Beach Hotel', Image: bg9, type:"hotel", link: '/adrien'},
-    { title: 'The Residence Amar', Image: bg10, type:"hotel", link: '/amar'}, 
+    { title: 'Jully Kribi Residence', Image: bg6, type:"trip", link: '/jully'},
+    { title: 'The Mount Febe Hotel', Image: bg7, type:"trip", link: '/febe'},
+    { title: 'The Douala Rabingha Hotel', Image: bg8, type:"trip", link: '/rabingha'},
+    { title: 'The Adrien Beach Hotel', Image: bg9, type:"trip", link: '/adrien'},
+    { title: 'The Residence Amar', Image: bg10, type:"trip", link: '/amar'}, 
 ]
 
 function Home() {
