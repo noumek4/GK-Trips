@@ -16,7 +16,7 @@
     border-radius: 10px 10px 0 0;
 }
 .trip-info-box{
-    background: #e0e7ff;
+    background: rgb(142, 149, 253);
     display: flex;
     padding: 1rem;
     border-radius: 0 0 20px 20px;
