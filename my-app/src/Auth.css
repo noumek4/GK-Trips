@@ -1,48 +1,139 @@
+/* General container styles */
 .auth-container {
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: cover;
     background-position: center;
-    transition: all 0.8s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    padding: 2vw;
 }
 
 .overlay {
-    background-color: rgba(212, 211, 211, 0.4);
-    backdrop-filter: blur(6px);
-    padding: 2rem;
+    background: rgba(255,255,255,0.85);
     border-radius: 16px;
-    width: 25%;
-    color: white;
-    text-align: center;
-}
-
-.form-box input {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem 1.5rem;
     width: 100%;
-    padding: 10px;
-    margin-top: 1rem;
-    border:none;
-    border-radius: 8px;
-    font-size: 16px;
-   
-}
-
-.button-group{
-    margin-top: 1.5rem;
+    max-width: 420px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-.button-group button {
-    padding: 0.6rem 1rem;
-    background-color: #2196f3;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+.form-box {
+    width: 100%;
 }
 
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1e3a8a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f8fafc;
+    transition: border 0.2s;
+}
+
+input:focus, textarea:focus {
+    border-color: #6366f1;
+    outline: none;
+}
+
+textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button-group button {
+    padding: 0.7rem 2rem;
+    background: #1e3a8a;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button-group button:hover {
+    background: #2563eb;
+}
+
+/* Custom Dropdown Styles */
+.custom-dropdown {
+    position: relative;
+    width: 100%;
+}
+
+.dropdown-selected {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.75rem;
+    background: #f8fafc;
+    color: #222;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 100;
+    margin-top: 2px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.dropdown-options > div {
+    padding: 0.75rem;
+    cursor: pointer;
+    color: #222;
+    background: #fff;
+    transition: background 0.2s;
+}
+
+.dropdown-options > div:hover,
+.dropdown-options > div.selected {
+    background: #e0e7ff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .overlay {
+        padding: 1rem 0.5rem;
+        max-width: 98vw;
+    }
+    .form-box h2 {
+        font-size: 1.2rem;
+    }
+    input, textarea, .dropdown-selected {
+        font-size: 0.95rem;
+        padding: 0.6rem;
+    }
+}
