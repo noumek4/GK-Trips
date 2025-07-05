@@ -17,6 +17,7 @@
 }
 .trip-info-box{
     background: rgb(149, 142, 253);
+    color: white;
     display: flex;
     padding: 1rem;
     border-radius: 0 0 20px 20px;
