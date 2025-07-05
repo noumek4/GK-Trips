@@ -1,8 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://noumek4.github.io/gk-trips",
   "private": true,
+  "homepage": "https://noumek4.github.io/GK-Trips",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@testing-library/dom": "^10.4.0",
