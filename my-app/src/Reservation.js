@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './Auth.css';
 import { Link } from 'react-router-dom';
-import bg1 from './bg1.jpg';
-import bg2 from './bg2.jpg';
-import bg3 from './bg3.jpg';
-import bg4 from './bg4.jpg';
+import bg1 from './waza.jpg'
+import bg2 from './foumban.jpg';
+import bg3 from './limbe.jpg';
+import bg4 from './ekom.jpg';
 
 const backgrounds = [bg1, bg2, bg3, bg4];
 
