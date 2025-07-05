@@ -46,12 +46,13 @@
 .trip-description h2 {
     color: #ffffff;
     margin: 0 0 0.5rem;
+    font-family: 'Roboto', 'Poppins' ;
 }
 
 .trip-description p {
     color: #334155;
     margin: 0;
-    font-family: "roboto,sans-serif";
+    font-family: 'Roboto', 'Poppins' ;
 }
 
 .trip-details {
