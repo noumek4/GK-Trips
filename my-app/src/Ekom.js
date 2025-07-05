@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './bg5.jpg';
+import './ekom.jpg';
 import './Ekom.css';
 
 function Ekom() {
@@ -9,7 +9,7 @@ function Ekom() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="./bg5.jpg" alt="The Ekom Nkam Waterfalls" className="trip-img" />
+                <img src="./ekom.jpg" alt="The Ekom Nkam Waterfalls" className="trip-img" />
                 <div className='trip-description'>
                     <h2>The Ekom Nkam Waterfalls</h2>
                     <p>Known for it's incredible design the Ekom Nkam Waterfalls is known for

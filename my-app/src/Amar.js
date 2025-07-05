@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './bg2.jpg';
+import './Amar.jpg';
 import './Amar.css';
 
 function Amar() {
@@ -9,7 +9,7 @@ function Amar() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="./bg2.jpg" alt="The Residence Amar" className="trip-img" />
+                <img src="./Amar.jpg" alt="The Residence Amar" className="trip-img" />
                 <div className='trip-description'>
                     <h2>The Residence Amar</h2>
                     <p>Known for it's incredible design the waza park is known for

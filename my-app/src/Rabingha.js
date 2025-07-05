@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './bg5.jpg'
+import './Rabingha.jpg'
 import './Rabingha.css';
 
 function Rabingha() {
@@ -9,7 +9,7 @@ function Rabingha() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="./bg5.jpg" alt="The Douala Rabingha Douala" className="trip-img" />
+                <img src="./Rabingha.jpg" alt="The Douala Rabingha Douala" className="trip-img" />
                 <div className='trip-description'>
                     <h2>The Douala Rabingha Hotel</h2>
                     <p>Known for it's incredible design The Douala Rabingha Hotel is known for

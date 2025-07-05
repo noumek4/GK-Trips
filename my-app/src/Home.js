@@ -1,12 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'; 
-import bg1 from './bg1.jpg';
-import bg2 from './bg2.jpg';
-import bg3 from './bg3.jpg';
-import bg4 from './bg4.jpg';
-import bg5 from './bg5.jpg';
-import bg6 from './bg6.jpg';
+import bg1 from './waza.jpg'
+import bg2 from './foumban.jpg'
+import bg3 from './limbe.jpg'
+import bg4 from './ekom.jpg'
+import bg5 from './downbeach.jpg'
+import bg6 from './jully.jpg'
+import bg7 from './febe.webp';
+import bg8 from './Rabingha.jpg';
+import bg9 from './Adrien.jpg';
+import bg10 from './Amar.jpg'
 
 const cardData = [
     { title: 'The Waza Park', Image: bg1, type:"trip", link: '/waza'},
@@ -15,16 +19,15 @@ const cardData = [
     { title: 'The Ekom Nkam Waterfalls', Image: bg4, type:"trip", link: '/ekom'},
     { title: 'Down Beach', Image: bg5, type:"trip", link: '/downbeach'},
     { title: 'Jully Kribi Residence', Image: bg6, type:"hotel", link: '/jully'},
-    { title: 'The Mount Febe Hotel', Image: bg3, type:"hotel", link: '/febe'},
-    { title: 'The Douala Rabingha Hotel', Image: bg4, type:"hotel", link: '/rabingha'},
-    { title: 'The Adrien Beach Hotel', Image: bg5, type:"hotel", link: '/adrien'},
-    { title: 'The Residence Amar', Image: bg6, type:"hotel", link: '/amar'}, 
+    { title: 'The Mount Febe Hotel', Image: bg7, type:"hotel", link: '/febe'},
+    { title: 'The Douala Rabingha Hotel', Image: bg8, type:"hotel", link: '/rabingha'},
+    { title: 'The Adrien Beach Hotel', Image: bg9, type:"hotel", link: '/adrien'},
+    { title: 'The Residence Amar', Image: bg10, type:"hotel", link: '/amar'}, 
 ]
 
 function Home() {
     return (
         <>
-
         <div className='card-container'>
             {cardData.map((card, index) => (
                 <div className={`card ${card.type}`} key={index}>

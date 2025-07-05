@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './bg6.jpg'
+import './febe.webp'
 import './Febe.css';
 
 function Febe() {
@@ -9,7 +9,7 @@ function Febe() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="./bg6.jpg" alt="The Mount Febe Hotel" className="trip-img" />
+                <img src="./febe.webp" alt="The Mount Febe Hotel" className="trip-img" />
                 <div className='trip-description'>
                     <h2>The Mount Febe Hotel</h2>
                     <p>Known for it's incredible design The Mount Febe Hotel is known for

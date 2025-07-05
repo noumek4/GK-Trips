@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './bg2.jpg'
+import './jully.jpg'
 import './Jully.css';
 
 function Jully() {
@@ -9,7 +9,7 @@ function Jully() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="./bg2.jpg" alt="The Jully Kribi Residence" className="trip-img" />
+                <img src="./jully.jpg" alt="The Jully Kribi Residence" className="trip-img" />
                 <div className='trip-description'>
                     <h2>The Jully Kribi Residence</h2>
                     <p>Known for it's incredible design The Jully Kribi Residence is known for
