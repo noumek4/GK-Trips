@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/GK-Trips/static/css/main.2f549566.css",
+    "main.js": "/GK-Trips/static/js/main.a3e8f526.js",
+    "static/js/453.96453769.chunk.js": "/GK-Trips/static/js/453.96453769.chunk.js",
+    "static/media/downbeach.jpg": "/GK-Trips/static/media/downbeach.1da707f548f5dde0f17a.jpg",
+    "static/media/fa-solid-900.ttf": "/GK-Trips/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/febe.webp": "/GK-Trips/static/media/febe.b45348fdc3733ffc4ee3.webp",
+    "static/media/foumban.jpg": "/GK-Trips/static/media/foumban.2566e15fef5afff14811.jpg",
+    "static/media/limbe.jpg": "/GK-Trips/static/media/limbe.f9f05b0512316a76937d.jpg",
+    "static/media/fa-brands-400.ttf": "/GK-Trips/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/jully.jpg": "/GK-Trips/static/media/jully.e4f8d0032d3459e92b57.jpg",
+    "static/media/fa-solid-900.woff2": "/GK-Trips/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/Adrien.jpg": "/GK-Trips/static/media/Adrien.47b146573e268a19427d.jpg",
+    "static/media/fa-brands-400.woff2": "/GK-Trips/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/ekom.jpg": "/GK-Trips/static/media/ekom.d8f67ad891082ea5dfd1.jpg",
+    "static/media/waza.jpg": "/GK-Trips/static/media/waza.f53424484920c385474e.jpg",
+    "static/media/fa-regular-400.ttf": "/GK-Trips/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/Rabingha.jpg": "/GK-Trips/static/media/Rabingha.fce3e747aeafca559c05.jpg",
+    "static/media/Amar.jpg": "/GK-Trips/static/media/Amar.ec22f9fa1ee11b4412b3.jpg",
+    "static/media/fa-regular-400.woff2": "/GK-Trips/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/GK-Trips/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/GK-Trips/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/GK-Trips/index.html",
+    "main.2f549566.css.map": "/GK-Trips/static/css/main.2f549566.css.map",
+    "main.a3e8f526.js.map": "/GK-Trips/static/js/main.a3e8f526.js.map",
+    "453.96453769.chunk.js.map": "/GK-Trips/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f549566.css",
+    "static/js/main.a3e8f526.js"
+  ]
+}
