@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Adrien.jpg'
+import adrienImg from'./Adrien.jpg'
 import './Adrien.css';
 
 function Adrien() {
@@ -9,7 +9,7 @@ function Adrien() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="./Adrien.jpg" alt="The Adrien Beach Hotel" className="trip-img" />
+                <img src={adrienImg} alt="The Adrien Beach Hotel" className="trip-img" />
                 <div className='trip-description'>
                     <h2>The Adrien Beach Hotel</h2>
                     <p>Known for it's incredible design The Adrien Beach Hotel is known for

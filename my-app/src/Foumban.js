@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './foumban.jpg'
+import foumbanImg from './foumban.jpg'
 import './Foumban.css';
 
 function Foumban() {
@@ -9,7 +9,7 @@ function Foumban() {
             <div className='trip-header'>Trip Info</div>
 
             <div className='trip-info-box'>
-                <img src="./foumban.jpg" alt="Foumban Museum" className="trip-img" />
+                <img src={foumbanImg} alt="Foumban Museum" className="trip-img" />
                 <div className='trip-description'>
                     <h2>The Foumban Museum</h2>
                     <p>Known for it's incredible design the waza park is known for
