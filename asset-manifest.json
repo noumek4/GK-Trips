@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GK-Trips/static/css/main.043b430c.css",
+    "main.css": "/GK-Trips/static/css/main.b34cd969.css",
     "main.js": "/GK-Trips/static/js/main.fa18e462.js",
     "static/js/453.96453769.chunk.js": "/GK-Trips/static/js/453.96453769.chunk.js",
     "static/media/downbeach.jpg": "/GK-Trips/static/media/downbeach.1da707f548f5dde0f17a.jpg",
@@ -22,12 +22,12 @@
     "static/media/fa-v4compatibility.ttf": "/GK-Trips/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/GK-Trips/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/GK-Trips/index.html",
-    "main.043b430c.css.map": "/GK-Trips/static/css/main.043b430c.css.map",
+    "main.b34cd969.css.map": "/GK-Trips/static/css/main.b34cd969.css.map",
     "main.fa18e462.js.map": "/GK-Trips/static/js/main.fa18e462.js.map",
     "453.96453769.chunk.js.map": "/GK-Trips/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.043b430c.css",
+    "static/css/main.b34cd969.css",
     "static/js/main.fa18e462.js"
   ]
 }
