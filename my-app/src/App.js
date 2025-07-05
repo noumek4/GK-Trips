@@ -25,6 +25,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/signin' element={<Signin />} />
         <Route path='/auth' element={<Auth />} />
         <Route path='/waza' element={<Waza />} />
