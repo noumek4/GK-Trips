@@ -6,6 +6,8 @@
     gap: 20px;
     padding: 40px;
     background-color: rgb(149, 142, 253);
+    height: 100vh;
+    box-sizing: border-box;
 }
 .card{
     background-color: white;
