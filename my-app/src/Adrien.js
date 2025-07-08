@@ -17,14 +17,8 @@ return(
                 <h2>The Adrien Beach Hotel</h2>
                 <p>Known for it's simple and rustic sites the Adrien Beach Hotel
                     is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-                    Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-                    Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-
+                    and modern work of art, you shall discover their traditional plus modern
+                    rooms.
                 </p>
             </div>
 
