@@ -12,7 +12,7 @@
 
 .trip-info-header{
     width: 100%;
-    background-color: #3f51b5;
+    background: linear-gradient(#0c50c7 #3f51b5);
     color: white;
     text-align: center;
     padding: 15px 0;
