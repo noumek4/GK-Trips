@@ -1,115 +1,116 @@
-.header {
-    font-family: sans-serif;
-    background: white;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 95vw;
-}
-
-.trip-header {
-    background-color: #1d4ed8;
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 10px 10px 0 0;
-}
-
-.trip-info-box {
-    background: rgb(149, 142, 253);
+.trip-info-container{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
-    border-radius: 0 0 20px 20px;
-    gap: 1rem;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
-    min-height: 180px;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+    box-sizing: border-box;
+
 }
 
-.trip-img {
-    width: 600px;
-    height: auto;
-    border-radius: 10px;
-    flex-shrink: 0;
-}
-
-.trip-description {
-    flex: 1 1 200px;
-    min-width: 180px;
-}
-
-.trip-description h2 {
-    color: #ffffff;
-    margin: 0 0 0.5rem;
-    font-family: 'Roboto', 'Poppins' ;
-}
-
-.trip-description p {
-    color: #334155;
-    margin: 0;
-    font-family: 'Roboto', 'Poppins' ;
-}
-
-.trip-details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem;
-    gap: 1rem;
-}
-
-.column {
-    flex: 1 1 200px;
-    min-width: 180px;
-}
-
-.column p {
-    margin: 0.5rem 0;
-}
-
-.btn-wrapper {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.book-btn {
-    padding: 0.6rem 1.5rem;
-    background-color: #1e3a8a;
+.trip-info-header{
+    width: 100%;
+    background-color: #3f51b5;
     color: white;
-    border: none;
-    border-radius: 999px;
-    font-size: 1rem;
-    cursor: pointer;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.book-btn:hover {
-    background-color: #2563eb;
+.trip-info-header h1{
+    margin: 0;
+    font-size: 1.8em;
 }
 
-/* --- Responsive Design --- */
-@media (max-width: 700px) {
-    .header {
-        max-width: 100vw;
-        padding: 0.5rem;
+.card-content{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px){
+    .card-content{
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+        "image details"
+        "info-points info-points"
+        "book-button-container book-button-container";
     }
-    .trip-info-box {
-        flex-direction: column;
-        align-items: flex-start;
-        min-height: unset;
+
+    .image-section{
+        grid-area: image;
     }
-    .trip-img {
-        width: 100%;
-        max-width: 350px;
-        margin: 0 auto;
+
+    .details-section{
+        grid-area: details;
     }
-    .trip-details {
-        flex-direction: column;
-        padding: 0.5rem;
+
+    .info-points{
+        grid-area: info-points;
     }
-    .column {
-        min-width: 0;
+
+    .book-button-container{
+        grid-area: book-button-container;
+        text-align: right;
     }
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+}
+
+.details-section h2{
+    color: #333;
+    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.details-section p{
+    color: #555;
+    line-height: 1.6;
+}
+
+.info-points{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.info-points ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.info-points ul:last-child{
+    margin-right: 0;
+}
+
+.info-points li{
+    margin-bottom: 8px;
+    color: #666;
+    position: relative;
+    padding-left: 15px;
+}
+
+.info-points li::before{
+    
 }

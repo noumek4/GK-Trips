@@ -3,54 +3,54 @@ import { Link } from 'react-router-dom';
 import adrienImg from'./Adrien.jpg'
 import './Adrien.css';
 
-function Adrien() {
-    return (
-        <div className='header'>
-            <div className='trip-header'>Trip Info</div>
+const AdrienInfoCard = () => {
+return(
+    <div className='trip-info-container'>
+        <div className='trip-info-header'>
+            <h1>Trips Info</h1>
+        </div>
+        <div className='card-content'>
+            <div className='image-section'>
+                <img src={adrienImg} alt="Adrien" />
+            </div>
+            <div className='details-section'>
+                <h2>The Adrien Beach Hotel</h2>
+                <p>Known for it's simple and rustic sites the Adrien Beach Hotel
+                    is known for it's welcoming environment and cultural illustrations
+                    and modern work of art 
+                    Known for it's simple and rustic sites the Adrien Beach Hotel
+                    is known for it's welcoming environment and cultural illustrations
+                    and modern work of art 
+                    Known for it's simple and rustic sites the Adrien Beach Hotel
+                    is known for it's welcoming environment and cultural illustrations
+                    and modern work of art 
 
-            <div className='trip-info-box'>
-                <img src={adrienImg} alt="The Adrien Beach Hotel" className="trip-img" />
-                <div className='trip-description'>
-                    <h2>The Adrien Beach Hotel</h2>
-                    <p>Known for it's incredible design The Adrien Beach Hotel is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                    </p>
-                </div>
+                </p>
             </div>
 
-            <div className='trip-details'>
-                <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='info-points'>
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
+
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
             </div>
-
-              <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='book-button-container'>
+                <Link to="/reservation">
+                <button className='book-now-button'>Book Now</button>
+                </Link>
             </div>
         </div>
+    </div>
+)
+}
 
-        <div className='btn-wrapper'>
-        <Link to="/reservation">
-            <button className='book-btn'>Book Now</button>
-        </Link>
-        </div>
-        </div>
-
-        
-        
-    );
-};
-
-export default Adrien;
+export default AdrienInfoCard
