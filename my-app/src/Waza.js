@@ -19,14 +19,7 @@ return(
                     Protected by the government, you will see animals living in the savannah,
                     , observe the Giraffes and the Lions and Antelopes. This amazing area is located
                     in the northern part of cameroon
-                    The Waza Park is one of the wildlife reserve in cameroon.
-                    Protected by the government, you will see animals living in the savannah,
-                    , observe the Giraffes and the Lions and Antelopes. This amazing area is located
-                    in the northern part of cameroon
-                    The Waza Park is one of the wildlife reserve in cameroon.
-                    Protected by the government, you will see animals living in the savannah,
-                    , observe the Giraffes and the Lions and Antelopes. This amazing area is located
-                    in the northern part of cameroon
+                    
 
                 </p>
             </div>

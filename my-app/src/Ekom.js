@@ -20,12 +20,6 @@ return(
                     taking their rise from Western streams and rivers,
                     You shall discover the culture of the people and the benefits of such aspect of nature.
                     Plus the rustic reliefs of the western region of cameroon. Just prepare your Pull-overs
-                    Located in the Western region of cameroon especially in Melon,
-                    the Ekom Nkam Waterfall is a treasure of nature, in which you could see local waterfalls
-                    taking their rise from Western streams and rivers,
-                    You shall discover the culture of the people and the benefits of such aspect of nature.
-                    Plus the rustic reliefs of the western region of cameroon. Just prepare your Pull-overs
-
 
                 </p>
             </div>

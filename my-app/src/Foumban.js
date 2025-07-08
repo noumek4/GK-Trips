@@ -23,11 +23,6 @@ return(
                     is a historic and touristic sites in which you can see the different kings and 
                     dynasties of the foumban community. You will learn their histories and their reign and lives styles.
                     Showing you the culture of the foumban community
-                    The Foumban Museum or mostly known as the Kings Museum of Foumban,
-                    is a historic and touristic sites in which you can see the different kings and 
-                    dynasties of the foumban community. You will learn their histories and their reign and lives styles.
-                    Showing you the culture of the foumban community
-
 
                 </p>
             </div>

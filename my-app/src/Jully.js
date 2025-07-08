@@ -19,14 +19,7 @@ return(
                     Southern Region of Cameroun especially in Kribi, The Hotels offers a lot of comfort and
                     activities to entertains it's guest. Based near the ocean it an incredible area to see sunset reflecting 
                     over the ocean.
-                    The Jully Kribi Residence is a famous and local Hotel located in the 
-                    Southern Region of Cameroun especially in Kribi, The Hotels offers a lot of comfort and
-                    activities to entertains it's guest. Based near the ocean it an incredible area to see sunset reflecting 
-                    over the ocean.
-                    The Jully Kribi Residence is a famous and local Hotel located in the 
-                    Southern Region of Cameroun especially in Kribi, The Hotels offers a lot of comfort and
-                    activities to entertains it's guest. Based near the ocean it an incredible area to see sunset reflecting 
-                    over the ocean.
+                    
                 </p>
             </div>
 
