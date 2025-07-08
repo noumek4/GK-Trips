@@ -31,7 +31,9 @@ function Home() {
         <div className='card-container'>
             {cardData.map((card, index) => (
                 <div className={`card ${card.type}`} key={index}>
+                   <Link to={card.link}>
                     <img src={card.Image} alt={card.title} />
+                    </Link>
                     <h3>{card.title}</h3>
                     <Link to={card.link}>
                     <button className='view-btn'>View</button>
