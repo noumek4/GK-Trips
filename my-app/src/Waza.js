@@ -14,16 +14,19 @@ return(
                 <img src={wazaImg} alt="Adrien" />
             </div>
             <div className='details-section'>
-                <h2>The Adrien Beach Hotel</h2>
-                <p>Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-                    Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-                    Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
+                <h2>The Waza Park</h2>
+                <p>The Waza Park is one of the wildlife reserve in cameroon.
+                    Protected by the government, you will see animals living in the savannah,
+                    , observe the Giraffes and the Lions and Antelopes. This amazing area is located
+                    in the northern part of cameroon
+                    The Waza Park is one of the wildlife reserve in cameroon.
+                    Protected by the government, you will see animals living in the savannah,
+                    , observe the Giraffes and the Lions and Antelopes. This amazing area is located
+                    in the northern part of cameroon
+                    The Waza Park is one of the wildlife reserve in cameroon.
+                    Protected by the government, you will see animals living in the savannah,
+                    , observe the Giraffes and the Lions and Antelopes. This amazing area is located
+                    in the northern part of cameroon
 
                 </p>
             </div>

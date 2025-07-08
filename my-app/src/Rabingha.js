@@ -14,17 +14,16 @@ return(
                 <img src={rabinImg} alt="Adrien" />
             </div>
             <div className='details-section'>
-                <h2>The Adrien Beach Hotel</h2>
-                <p>Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-                    Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-                    Known for it's simple and rustic sites the Adrien Beach Hotel
-                    is known for it's welcoming environment and cultural illustrations
-                    and modern work of art 
-
+                <h2>The Douala Rabingha Hotel</h2>
+                <p>If you need a place to stay for a period of time in Douala,
+                    we actually advice you the Douala Rabingha Hotel, Known for it's comfort and the 
+                    quality services ,you will enjoy sleeping in their rooms
+                    If you need a place to stay for a period of time in Douala,
+                    we actually advice you the Douala Rabingha Hotel, Known for it's comfort and the 
+                    quality services ,you will enjoy sleeping in their rooms
+                    If you need a place to stay for a period of time in Douala,
+                    we actually advice you the Douala Rabingha Hotel, Known for it's comfort and the 
+                    quality services ,you will enjoy sleeping in their rooms
                 </p>
             </div>
 
