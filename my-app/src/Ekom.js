@@ -3,54 +3,56 @@ import { Link } from 'react-router-dom';
 import ekomImg from'./ekom.jpg';
 import './Ekom.css';
 
-function Ekom() {
-    return (
-        <div className='header'>
-            <div className='trip-header'>Trip Info</div>
+const Ekom = () => {
+return(
+    <div className='trip-info-container'>
+        <div className='trip-info-header'>
+            <h1>Trips Info</h1>
+        </div>
+        <div className='card-content'>
+            <div className='image-section'>
+                <img src={ekomImg} alt="Adrien" />
+            </div>
+            <div className='details-section'>
+                <h2>The Ekom Nkam Waterfall</h2>
+                <p>Located in the Western region of cameroon especially in Melon,
+                    the Ekom Nkam Waterfall is a treasure of nature, in which you could see local waterfalls
+                    taking their rise from Western streams and rivers,
+                    You shall discover the culture of the people and the benefits of such aspect of nature.
+                    Plus the rustic reliefs of the western region of cameroon. Just prepare your Pull-overs
+                    Located in the Western region of cameroon especially in Melon,
+                    the Ekom Nkam Waterfall is a treasure of nature, in which you could see local waterfalls
+                    taking their rise from Western streams and rivers,
+                    You shall discover the culture of the people and the benefits of such aspect of nature.
+                    Plus the rustic reliefs of the western region of cameroon. Just prepare your Pull-overs
 
-            <div className='trip-info-box'>
-                <img src={ekomImg} alt="The Ekom Nkam Waterfalls" className="trip-img" />
-                <div className='trip-description'>
-                    <h2>The Ekom Nkam Waterfalls</h2>
-                    <p>Known for it's incredible design the Ekom Nkam Waterfalls is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                    </p>
-                </div>
+
+                </p>
             </div>
 
-            <div className='trip-details'>
-                <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='info-points'>
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
+
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
             </div>
-
-              <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='book-button-container'>
+                <Link to="/reservation">
+                <button className='book-now-button'>Book Now</button>
+                </Link>
             </div>
         </div>
+    </div>
+)
+}
 
-        <div className='btn-wrapper'>
-        <Link to="/reservation">
-            <button className='book-btn'>Book Now</button>
-        </Link>
-        </div>
-        </div>
-
-        
-        
-    );
-};
-
-export default Ekom;
+export default Ekom

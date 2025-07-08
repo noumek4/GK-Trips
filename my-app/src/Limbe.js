@@ -3,54 +3,47 @@ import { Link } from 'react-router-dom';
 import limbeImg from './limbe.jpg'
 import './Limbe.css';
 
-function Limbe() {
-    return (
-        <div className='header'>
-            <div className='trip-header'>Trip Info</div>
-
-            <div className='trip-info-box'>
-                <img src={limbeImg} alt="Limbe Botanical Garden" className="trip-img" />
-                <div className='trip-description'>
-                    <h2>The Limbe Botanical Garden</h2>
-                    <p>Known for it's incredible design The Limbe Botanical Garden is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                    </p>
-                </div>
+const Limbe = () => {
+return(
+    <div className='trip-info-container'>
+        <div className='trip-info-header'>
+            <h1>Trips Info</h1>
+        </div>
+        <div className='card-content'>
+            <div className='image-section'>
+                <img src={limbeImg} alt="Adrien" />
+            </div>
+            <div className='details-section'>
+                <h2>The Limbe Botanical Garden</h2>
+                <p>If You like nature and wildlife you need to visit The Limbe Botanical Garden.
+                    this sites is an amazing place for you to see the wonders of Cameroun Nature,
+                    Explore the rarest treasure 
+                </p>
             </div>
 
-            <div className='trip-details'>
-                <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='info-points'>
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
+
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
             </div>
-
-              <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='book-button-container'>
+                <Link to="/reservation">
+                <button className='book-now-button'>Book Now</button>
+                </Link>
             </div>
         </div>
+    </div>
+)
+}
 
-        <div className='btn-wrapper'>
-        <Link to="/reservation">
-            <button className='book-btn'>Book Now</button>
-        </Link>
-        </div>
-        </div>
-
-        
-        
-    );
-};
-
-export default Limbe;
+export default Limbe

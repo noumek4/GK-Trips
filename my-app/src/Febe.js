@@ -3,54 +3,56 @@ import { Link } from 'react-router-dom';
 import febeImg from './febe.webp'
 import './Febe.css';
 
-function Febe() {
-    return (
-        <div className='header'>
-            <div className='trip-header'>Trip Info</div>
-
-            <div className='trip-info-box'>
-                <img src={febeImg} alt="The Mount Febe Hotel" className="trip-img" />
-                <div className='trip-description'>
-                    <h2>The Mount Febe Hotel</h2>
-                    <p>Known for it's incredible design The Mount Febe Hotel is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                    </p>
-                </div>
+const Febe = () => {
+return(
+    <div className='trip-info-container'>
+        <div className='trip-info-header'>
+            <h1>Trips Info</h1>
+        </div>
+        <div className='card-content'>
+            <div className='image-section'>
+                <img src={febeImg} alt="Adrien" />
+            </div>
+            <div className='details-section'>
+                <h2>The Mount Febe Hotel</h2>
+                <p>The Mount Febe Hotel is one of the most popular hotel in the central region of cameroon,
+                    Located in Yaounde, the hotel offers high quality services like:
+                    breakfast, outside activities and incredible hotels rooms for you based on your 
+                    particularities 
+                    The Mount Febe Hotel is one of the most popular hotel in the central region of cameroon,
+                    Located in Yaounde, the hotel offers high quality services like:
+                    breakfast, outside activities and incredible hotels rooms for you based on your 
+                    particularities 
+                    The Mount Febe Hotel is one of the most popular hotel in the central region of cameroon,
+                    Located in Yaounde, the hotel offers high quality services like:
+                    breakfast, outside activities and incredible hotels rooms for you based on your 
+                    particularities 
+                </p>
             </div>
 
-            <div className='trip-details'>
-                <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='info-points'>
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
+
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
             </div>
-
-              <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='book-button-container'>
+                <Link to="/reservation">
+                <button className='book-now-button'>Book Now</button>
+                </Link>
             </div>
         </div>
+    </div>
+)
+}
 
-        <div className='btn-wrapper'>
-        <Link to="/reservation">
-            <button className='book-btn'>Book Now</button>
-        </Link>
-        </div>
-        </div>
-
-        
-        
-    );
-};
-
-export default Febe;
+export default Febe

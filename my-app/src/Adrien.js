@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import adrienImg from'./Adrien.jpg'
 import './Adrien.css';
 
-const AdrienInfoCard = () => {
+const Adrien = () => {
 return(
     <div className='trip-info-container'>
         <div className='trip-info-header'>
@@ -53,4 +53,4 @@ return(
 )
 }
 
-export default AdrienInfoCard
+export default Adrien

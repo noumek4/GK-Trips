@@ -3,54 +3,54 @@ import { Link } from 'react-router-dom';
 import downImg from'./downbeach.jpg';
 import './Downbeach.css';
 
-function DownBeach() {
-    return (
-        <div className='header'>
-            <div className='trip-header'>Trip Info</div>
+const Downbeach = () => {
+return(
+    <div className='trip-info-container'>
+        <div className='trip-info-header'>
+            <h1>Trips Info</h1>
+        </div>
+        <div className='card-content'>
+            <div className='image-section'>
+                <img src={downImg} alt="Adrien" />
+            </div>
+            <div className='details-section'>
+                <h2>DownBeach</h2>
+                <p>DownBeach is known for it's incredible multi-services activities
+                    where you could see things like incredible restaurant and amazing attractions and 
+                    horse riding, located at the seashore of the atlantic ocean in the south west of cameroon ,this adventure is going to be fabulous
+                    both for your tongue and for your mental health and where you could relax at the sun set
+                    DownBeach is known for it's incredible multi-services activities
+                    where you could see things like incredible restaurant and amazing attractions and 
+                    horse riding, located at the seashore of the atlantic ocean in the south west of cameroon ,this adventure is going to be fabulous
+                    both for your tongue and for your mental health and where you could relax at the sun set
 
-            <div className='trip-info-box'>
-                <img src={downImg} alt="Down Beach" className="trip-img" />
-                <div className='trip-description'>
-                    <h2>Down Beach</h2>
-                    <p>Known for it's incredible design the Down Beach is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                    </p>
-                </div>
+
+                </p>
             </div>
 
-            <div className='trip-details'>
-                <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='info-points'>
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
+
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
             </div>
-
-              <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='book-button-container'>
+                <Link to="/reservation">
+                <button className='book-now-button'>Book Now</button>
+                </Link>
             </div>
         </div>
+    </div>
+)
+}
 
-        <div className='btn-wrapper'>
-            <Link to="/reservation">
-            <button className='book-btn'>Book Now</button>
-            </Link>
-        </div>
-        </div>
-
-        
-        
-    );
-};
-
-export default DownBeach;
+export default Downbeach

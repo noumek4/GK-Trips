@@ -3,54 +3,58 @@ import { Link } from 'react-router-dom';
 import foumbanImg from './foumban.jpg'
 import './Foumban.css';
 
-function Foumban() {
-    return (
-        <div className='header'>
-            <div className='trip-header'>Trip Info</div>
+const Foumban = () => {
+return(
+    <div className='trip-info-container'>
+        <div className='trip-info-header'>
+            <h1>Trips Info</h1>
+        </div>
+        <div className='card-content'>
+            <div className='image-section'>
+                <img src={foumbanImg} alt="Adrien" />
+            </div>
+            <div className='details-section'>
+                <h2>The Foumban Museum</h2>
+                <p>The Foumban Museum or mostly known as the Kings Museum of Foumban,
+                    is a historic and touristic sites in which you can see the different kings and 
+                    dynasties of the foumban community. You will learn their histories and their reign and lives styles.
+                    Showing you the culture of the foumban community
+                    The Foumban Museum or mostly known as the Kings Museum of Foumban,
+                    is a historic and touristic sites in which you can see the different kings and 
+                    dynasties of the foumban community. You will learn their histories and their reign and lives styles.
+                    Showing you the culture of the foumban community
+                    The Foumban Museum or mostly known as the Kings Museum of Foumban,
+                    is a historic and touristic sites in which you can see the different kings and 
+                    dynasties of the foumban community. You will learn their histories and their reign and lives styles.
+                    Showing you the culture of the foumban community
 
-            <div className='trip-info-box'>
-                <img src={foumbanImg} alt="Foumban Museum" className="trip-img" />
-                <div className='trip-description'>
-                    <h2>The Foumban Museum</h2>
-                    <p>Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                    </p>
-                </div>
+
+                </p>
             </div>
 
-            <div className='trip-details'>
-                <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='info-points'>
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
+
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
             </div>
-
-              <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='book-button-container'>
+                <Link to="/reservation">
+                <button className='book-now-button'>Book Now</button>
+                </Link>
             </div>
         </div>
+    </div>
+)
+}
 
-        <div className='btn-wrapper'>
-        <Link to="/reservation">
-            <button className='book-btn'>Book Now</button>
-        </Link>
-        </div>
-        </div>
-
-        
-        
-    );
-};
-
-export default Foumban;
+export default Foumban

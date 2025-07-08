@@ -3,54 +3,56 @@ import { Link } from 'react-router-dom';
 import jullyImg from './jully.jpg'
 import './Jully.css';
 
-function Jully() {
-    return (
-        <div className='header'>
-            <div className='trip-header'>Trip Info</div>
-
-            <div className='trip-info-box'>
-                <img src={jullyImg} alt="The Jully Kribi Residence" className="trip-img" />
-                <div className='trip-description'>
-                    <h2>The Jully Kribi Residence</h2>
-                    <p>Known for it's incredible design The Jully Kribi Residence is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                         Known for it's incredible design the waza park is known for
-                        it's incredible design and the variety of animals it houses and 
-                        it's traditional artefact 
-                    </p>
-                </div>
+const Jully = () => {
+return(
+    <div className='trip-info-container'>
+        <div className='trip-info-header'>
+            <h1>Trips Info</h1>
+        </div>
+        <div className='card-content'>
+            <div className='image-section'>
+                <img src={jullyImg} alt="Adrien" />
+            </div>
+            <div className='details-section'>
+                <h2>The Jully Kribi Residence</h2>
+                <p>The Jully Kribi Residence is a famous and local Hotel located in the 
+                    Southern Region of Cameroun especially in Kribi, The Hotels offers a lot of comfort and
+                    activities to entertains it's guest. Based near the ocean it an incredible area to see sunset reflecting 
+                    over the ocean.
+                    The Jully Kribi Residence is a famous and local Hotel located in the 
+                    Southern Region of Cameroun especially in Kribi, The Hotels offers a lot of comfort and
+                    activities to entertains it's guest. Based near the ocean it an incredible area to see sunset reflecting 
+                    over the ocean.
+                    The Jully Kribi Residence is a famous and local Hotel located in the 
+                    Southern Region of Cameroun especially in Kribi, The Hotels offers a lot of comfort and
+                    activities to entertains it's guest. Based near the ocean it an incredible area to see sunset reflecting 
+                    over the ocean.
+                </p>
             </div>
 
-            <div className='trip-details'>
-                <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='info-points'>
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
+
+                <ul>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                </ul>
             </div>
-
-              <div className='column'>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
-                    <p>Lorem ipsum dolor isis amet guh deo sir</p>
+            <div className='book-button-container'>
+                <Link to="/reservation">
+                <button className='book-now-button'>Book Now</button>
+                </Link>
             </div>
         </div>
+    </div>
+)
+}
 
-        <div className='btn-wrapper'>
-        <Link to="/reservation">
-            <button className='book-btn'>Book Now</button>
-        </Link>
-        </div>
-        </div>
-
-        
-        
-    );
-};
-
-export default Jully;
+export default Jully
