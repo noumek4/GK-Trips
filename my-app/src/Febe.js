@@ -19,14 +19,7 @@ return(
                     Located in Yaounde, the hotel offers high quality services like:
                     breakfast, outside activities and incredible hotels rooms for you based on your 
                     particularities 
-                    The Mount Febe Hotel is one of the most popular hotel in the central region of cameroon,
-                    Located in Yaounde, the hotel offers high quality services like:
-                    breakfast, outside activities and incredible hotels rooms for you based on your 
-                    particularities 
-                    The Mount Febe Hotel is one of the most popular hotel in the central region of cameroon,
-                    Located in Yaounde, the hotel offers high quality services like:
-                    breakfast, outside activities and incredible hotels rooms for you based on your 
-                    particularities 
+                    
                 </p>
             </div>
 

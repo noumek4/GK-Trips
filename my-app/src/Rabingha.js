@@ -17,13 +17,10 @@ return(
                 <h2>The Douala Rabingha Hotel</h2>
                 <p>If you need a place to stay for a period of time in Douala,
                     we actually advice you the Douala Rabingha Hotel, Known for it's comfort and the 
-                    quality services ,you will enjoy sleeping in their rooms
-                    If you need a place to stay for a period of time in Douala,
-                    we actually advice you the Douala Rabingha Hotel, Known for it's comfort and the 
-                    quality services ,you will enjoy sleeping in their rooms
-                    If you need a place to stay for a period of time in Douala,
-                    we actually advice you the Douala Rabingha Hotel, Known for it's comfort and the 
-                    quality services ,you will enjoy sleeping in their rooms
+                    quality services ,you will enjoy sleeping in their rooms and benefit their
+                    incredible room services
+                    
+                    
                 </p>
             </div>
 
