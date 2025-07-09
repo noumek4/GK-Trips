@@ -24,17 +24,17 @@ return(
 
             <div className='info-points'>
                 <ul>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Open Everyday 7j/7</li>
+                    <li>Rooms Available</li>
+                    <li>Royals Suits, Couple Suits,Single Suits</li>
+                    <li>Breakfast, Lunch, Dinner offered for VIP clients</li>
                 </ul>
 
                 <ul>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
-                    <li>Lorem ipsum dolor isit amet sol deo gracias sunfe</li>
+                    <li>Location: Douala</li>
+                    <li>Price: 25000cfa for single Suits</li>
+                    <li>Price: 35000cfa for Couple Suits</li>
+                    <li>Price: 60000cfa for Royals Suits</li>
                 </ul>
             </div>
             <div className='book-button-container'>

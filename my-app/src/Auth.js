@@ -30,6 +30,19 @@ const handleInputChange = (e) => {
     }));
 };
 
+fetch('http://127.0.0.1:5000/auth',{
+    method: 'POST',
+    headers: {
+        'Content-Type':'application/json',
+    },
+    body:JSON.stringify({
+        username: 'admin',
+        password: '1234'
+    })
+})
+.then(res => res.json())
+.then(data => console.log(data))
+
 return (
     <div className='auth-container' style={{ backgroundImage: `url(${backgrounds[bgIndex]})` }} onClick={cycleBackground}>
         <div className='overlay'>
