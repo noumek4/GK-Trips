@@ -1,24 +1,35 @@
 import React from "react";
 import './Navbar.css';
+import {FaSearch} from 'react-icons'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return(
-        <nav className="navbar">
-            <div className="navbar-left">
-                <i className="fas fa-search search-icon"></i>
-                <input type="text" placeholder="Search" className="search-input" />
+    <>
+    <nav className="navbar">
+        <div className="nav-left">
+            <h2 className="logo">GK Trips</h2>
+            <ul className="nav-links">
+                <Link to="/"><li><a href="/">Home</a></li></Link>
+                <Link to="/trip"><li><a href="/">Trips</a></li></Link>
+                <Link to="/hotel"><li><a href="/">Hotels</a></li></Link>
+                <Link to="myreservation"><li><a href="/">My Reservation</a></li></Link>
+                
+            </ul>
+        </div>
+
+        <div className="nav-right">
+            <div className="search-bar">
+                <input type="text" placeholder="Search" />
+                <button><FaSearch /></button>
             </div>
 
-            <div className="navbar-right">
-                <Link to="/auth" className="nav-link">Create an Account</Link>
-                <Link to="/signin" className="nav-link">Sign In</Link>
-                <div className="menu-icon">
-                    <i className="fas fa-bars"></i>
-                </div>
-            </div>
-        </nav>
-    )
+            <Link to="signin"><a href="/" className="auth-link">Sign In</a></Link>
+            <Link to="auth"><a href="/" className="auth-link-create">Create an Account</a></Link>
+        </div>
+    </nav>
+    </>
+    );
 }
 
 export default Navbar;

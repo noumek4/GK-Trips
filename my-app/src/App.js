@@ -15,6 +15,10 @@ import Rabingha from './Rabingha';
 import Adrien from './Adrien';
 import Amar from './Amar';
 import Reservation from './Reservation';
+import Hotel from './Hotel';
+import Trip from './Trip';
+import My  from './Myreservation';
+import Welcome from './Welcome';
 import './Auth.css'
 
 
@@ -39,6 +43,10 @@ function App() {
         <Route path='/adrien' element={<Adrien />} />
         <Route path='/amar' element={<Amar />} />
         <Route path='/reservation' element={<Reservation />} />
+        <Route path='/myreservation' element={<My />} />
+        <Route path='/hotel' element={<Hotel />} />
+        <Route path='/trip' element={<Trip />} />
+        <Route path='/welcome' element={<Welcome />} />
         <Route path='*' element={<h1>Page Not Found</h1>} />
       </Routes>
     </Router>
