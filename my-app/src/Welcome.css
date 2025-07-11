@@ -1,0 +1,71 @@
+.hero{
+    background-image: url(./Chutes\ de\ la\ lobé\ 🇨🇲❤️🫶🏻.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p{
+    font-size: 1.5rem;
+}
+
+.card-section{
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #f0f8ff;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.card{
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card h3{
+    padding: 1rem;
+}
+
+.explore-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.explore-btn:hover{
+    background-color: #0056b3;
+}
