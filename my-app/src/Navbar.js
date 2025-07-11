@@ -1,6 +1,6 @@
 import React from "react";
 import './Navbar.css';
-import {FaSearch} from 'react-icons'
+import {FaSearch} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Link to="/"><li><a href="/">Home</a></li></Link>
                 <Link to="/trip"><li><a href="/">Trips</a></li></Link>
                 <Link to="/hotel"><li><a href="/">Hotels</a></li></Link>
-                <Link to="myreservation"><li><a href="/">My Reservation</a></li></Link>
+                <Link to="/myreservation"><li><a href="/">My Reservation</a></li></Link>
                 
             </ul>
         </div>
@@ -24,11 +24,12 @@ const Navbar = () => {
                 <button><FaSearch /></button>
             </div>
 
-            <Link to="signin"><a href="/" className="auth-link">Sign In</a></Link>
-            <Link to="auth"><a href="/" className="auth-link-create">Create an Account</a></Link>
+            <Link to="/signin"><a href="/" className="auth-link">Sign In</a></Link>
+            <Link to="/auth"><a href="/" className="auth-link-create">Create an Account</a></Link>
         </div>
     </nav>
     </>
+    
     );
 }
 
