@@ -39,8 +39,8 @@ const Welcome = () => {
             <div className='cards'>
                 {destination.map((place, index) => (
                 <div className='card' key={index}>
-                    <img src={bg2} alt='Visit the local' />
-                      <h3>South</h3>
+                    <img src={place.Image} alt='Visit the local' />
+                      <h3>{place.name}</h3>
                 </div>    
                 ))}
               
